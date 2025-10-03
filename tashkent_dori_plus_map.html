@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_fd5482ce0582434dca119ff749cace1a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_fd5482ce0582434dca119ff749cace1a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_fd5482ce0582434dca119ff749cace1a = L.map(
+                "map_fd5482ce0582434dca119ff749cace1a",
+                {
+                    center: [41.3111, 69.2797],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_603765352cf5047945e79d6f0c6a390a = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var marker_fdea39c2354359e1ba2f78066e4127b9 = L.marker(
+                [41.3155, 69.2784],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_b6a4409178b3011ca3638396e10da987 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fdea39c2354359e1ba2f78066e4127b9.setIcon(icon_b6a4409178b3011ca3638396e10da987);
+        
+    
+        var popup_1cb6eb791e4359a48ca2b154cc3d0e52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_069dab378ed4e0960fc684c009768472 = $(`<div id="html_069dab378ed4e0960fc684c009768472" style="width: 100.0%; height: 100.0%;">Alisher Navoiy Metro</div>`)[0];
+            popup_1cb6eb791e4359a48ca2b154cc3d0e52.setContent(html_069dab378ed4e0960fc684c009768472);
+        
+
+        marker_fdea39c2354359e1ba2f78066e4127b9.bindPopup(popup_1cb6eb791e4359a48ca2b154cc3d0e52)
+        ;
+
+        
+    
+    
+            marker_fdea39c2354359e1ba2f78066e4127b9.bindTooltip(
+                `<div>
+                     Alisher Navoiy Metro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cc12eb19857113a334e86a1d990bc16a = L.marker(
+                [41.3129, 69.2824],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_23d83e0e0dff9a2c307af217d2710c5e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc12eb19857113a334e86a1d990bc16a.setIcon(icon_23d83e0e0dff9a2c307af217d2710c5e);
+        
+    
+        var popup_79543e3299281e90b9d99fc4bcc032d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_578bf1cb88050ea821107334c0765f1d = $(`<div id="html_578bf1cb88050ea821107334c0765f1d" style="width: 100.0%; height: 100.0%;">O'zbekiston Metro</div>`)[0];
+            popup_79543e3299281e90b9d99fc4bcc032d7.setContent(html_578bf1cb88050ea821107334c0765f1d);
+        
+
+        marker_cc12eb19857113a334e86a1d990bc16a.bindPopup(popup_79543e3299281e90b9d99fc4bcc032d7)
+        ;
+
+        
+    
+    
+            marker_cc12eb19857113a334e86a1d990bc16a.bindTooltip(
+                `<div>
+                     O'zbekiston Metro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c24bcbff4c73e4073325cc2a5165db2e = L.marker(
+                [41.3105, 69.2853],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_4ea2321d9abfb57c491c5932b945e7dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c24bcbff4c73e4073325cc2a5165db2e.setIcon(icon_4ea2321d9abfb57c491c5932b945e7dc);
+        
+    
+        var popup_01d0f2eba181415d4167c1ad74f05fd3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f609cb558d0557798227cea75205b6 = $(`<div id="html_86f609cb558d0557798227cea75205b6" style="width: 100.0%; height: 100.0%;">Kosmonavtlar Metro</div>`)[0];
+            popup_01d0f2eba181415d4167c1ad74f05fd3.setContent(html_86f609cb558d0557798227cea75205b6);
+        
+
+        marker_c24bcbff4c73e4073325cc2a5165db2e.bindPopup(popup_01d0f2eba181415d4167c1ad74f05fd3)
+        ;
+
+        
+    
+    
+            marker_c24bcbff4c73e4073325cc2a5165db2e.bindTooltip(
+                `<div>
+                     Kosmonavtlar Metro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ef1c0ace9326c57bdb625fc16f63185 = L.marker(
+                [41.2972, 69.2856],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_90ac58e74e7d35cc06bc56fcf1ebe8c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ef1c0ace9326c57bdb625fc16f63185.setIcon(icon_90ac58e74e7d35cc06bc56fcf1ebe8c4);
+        
+    
+        var popup_8fdb9b0c053fe02888a86d573795c0c5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e9589a618003fe2a4a10b726c80d11a = $(`<div id="html_0e9589a618003fe2a4a10b726c80d11a" style="width: 100.0%; height: 100.0%;">Toshkent Metro (Vokzal)</div>`)[0];
+            popup_8fdb9b0c053fe02888a86d573795c0c5.setContent(html_0e9589a618003fe2a4a10b726c80d11a);
+        
+
+        marker_2ef1c0ace9326c57bdb625fc16f63185.bindPopup(popup_8fdb9b0c053fe02888a86d573795c0c5)
+        ;
+
+        
+    
+    
+            marker_2ef1c0ace9326c57bdb625fc16f63185.bindTooltip(
+                `<div>
+                     Toshkent Metro (Vokzal)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7be1d49a664843fcbe398646db982036 = L.marker(
+                [41.2952, 69.2648],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_5740d83a5ad40eb183c45e44059fe3af = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7be1d49a664843fcbe398646db982036.setIcon(icon_5740d83a5ad40eb183c45e44059fe3af);
+        
+    
+        var popup_a9d9cf55a1fd2a4893ecdbc8bc8a310e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56f63513aff71609258f2c8c6161a59e = $(`<div id="html_56f63513aff71609258f2c8c6161a59e" style="width: 100.0%; height: 100.0%;">Turon Metro</div>`)[0];
+            popup_a9d9cf55a1fd2a4893ecdbc8bc8a310e.setContent(html_56f63513aff71609258f2c8c6161a59e);
+        
+
+        marker_7be1d49a664843fcbe398646db982036.bindPopup(popup_a9d9cf55a1fd2a4893ecdbc8bc8a310e)
+        ;
+
+        
+    
+    
+            marker_7be1d49a664843fcbe398646db982036.bindTooltip(
+                `<div>
+                     Turon Metro
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fea2fa26aa236009f6f3e2bd5c5aad2d = L.marker(
+                [41.3274, 69.2426],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_5875db08172d703f46c6b40a167eede1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fea2fa26aa236009f6f3e2bd5c5aad2d.setIcon(icon_5875db08172d703f46c6b40a167eede1);
+        
+    
+        var popup_a3be21f65d77b7eabef2854ade118ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ca0a835a503aede52b3928dc85b7b6b = $(`<div id="html_8ca0a835a503aede52b3928dc85b7b6b" style="width: 100.0%; height: 100.0%;">Chorsu Bozori</div>`)[0];
+            popup_a3be21f65d77b7eabef2854ade118ef7.setContent(html_8ca0a835a503aede52b3928dc85b7b6b);
+        
+
+        marker_fea2fa26aa236009f6f3e2bd5c5aad2d.bindPopup(popup_a3be21f65d77b7eabef2854ade118ef7)
+        ;
+
+        
+    
+    
+            marker_fea2fa26aa236009f6f3e2bd5c5aad2d.bindTooltip(
+                `<div>
+                     Chorsu Bozori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3d0b1bdc9b6ab6867b6fcf589b531f86 = L.marker(
+                [41.3118, 69.2416],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_7b7c85d2482282a3176afd97e720290b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3d0b1bdc9b6ab6867b6fcf589b531f86.setIcon(icon_7b7c85d2482282a3176afd97e720290b);
+        
+    
+        var popup_726ae015db91b7613c0be68f3d3b820e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdbc2d43059ed01418f79e633d82f2f3 = $(`<div id="html_bdbc2d43059ed01418f79e633d82f2f3" style="width: 100.0%; height: 100.0%;">Samarqand Darvoza Mall</div>`)[0];
+            popup_726ae015db91b7613c0be68f3d3b820e.setContent(html_bdbc2d43059ed01418f79e633d82f2f3);
+        
+
+        marker_3d0b1bdc9b6ab6867b6fcf589b531f86.bindPopup(popup_726ae015db91b7613c0be68f3d3b820e)
+        ;
+
+        
+    
+    
+            marker_3d0b1bdc9b6ab6867b6fcf589b531f86.bindTooltip(
+                `<div>
+                     Samarqand Darvoza Mall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cee357ba7c403e6731659ad3f30bfcd3 = L.marker(
+                [41.3386, 69.334],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_e4bc7fcc8f638e81b5e4d260f9ce216c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cee357ba7c403e6731659ad3f30bfcd3.setIcon(icon_e4bc7fcc8f638e81b5e4d260f9ce216c);
+        
+    
+        var popup_4d4897e480946e1b0b24c194ae02d44d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1634011096b4d584f51ed36739b2c8f = $(`<div id="html_f1634011096b4d584f51ed36739b2c8f" style="width: 100.0%; height: 100.0%;">Mega Planet Mall</div>`)[0];
+            popup_4d4897e480946e1b0b24c194ae02d44d.setContent(html_f1634011096b4d584f51ed36739b2c8f);
+        
+
+        marker_cee357ba7c403e6731659ad3f30bfcd3.bindPopup(popup_4d4897e480946e1b0b24c194ae02d44d)
+        ;
+
+        
+    
+    
+            marker_cee357ba7c403e6731659ad3f30bfcd3.bindTooltip(
+                `<div>
+                     Mega Planet Mall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7bc5639f3e73bc28c3748fc31a11baa = L.marker(
+                [41.305, 69.288],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_a635ade40c93b952fbcfe161cbb4023f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e7bc5639f3e73bc28c3748fc31a11baa.setIcon(icon_a635ade40c93b952fbcfe161cbb4023f);
+        
+    
+        var popup_b1dacde8063ddafdf338c9ef7f8dd2f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bcd19bba01430f4eaeb097ddaa227ed4 = $(`<div id="html_bcd19bba01430f4eaeb097ddaa227ed4" style="width: 100.0%; height: 100.0%;">Next Mall</div>`)[0];
+            popup_b1dacde8063ddafdf338c9ef7f8dd2f7.setContent(html_bcd19bba01430f4eaeb097ddaa227ed4);
+        
+
+        marker_e7bc5639f3e73bc28c3748fc31a11baa.bindPopup(popup_b1dacde8063ddafdf338c9ef7f8dd2f7)
+        ;
+
+        
+    
+    
+            marker_e7bc5639f3e73bc28c3748fc31a11baa.bindTooltip(
+                `<div>
+                     Next Mall
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0785fb1f99f140fed28e75f3ae7f2586 = L.marker(
+                [41.3381, 69.3347],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_0b246205f7679c9e5f1fd4c31c8aaf29 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0785fb1f99f140fed28e75f3ae7f2586.setIcon(icon_0b246205f7679c9e5f1fd4c31c8aaf29);
+        
+    
+        var popup_404730d5b02152b30c2515daf6e25cfe = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2fc33eb271dae2ec0d395ac6c0773ecb = $(`<div id="html_2fc33eb271dae2ec0d395ac6c0773ecb" style="width: 100.0%; height: 100.0%;">Toshkent Tibbiyot Universiteti</div>`)[0];
+            popup_404730d5b02152b30c2515daf6e25cfe.setContent(html_2fc33eb271dae2ec0d395ac6c0773ecb);
+        
+
+        marker_0785fb1f99f140fed28e75f3ae7f2586.bindPopup(popup_404730d5b02152b30c2515daf6e25cfe)
+        ;
+
+        
+    
+    
+            marker_0785fb1f99f140fed28e75f3ae7f2586.bindTooltip(
+                `<div>
+                     Toshkent Tibbiyot Universiteti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_23f12cc75cdf3b6bac0c4acaea44a21a = L.marker(
+                [41.3057, 69.2691],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_01bb17367707890d69ddffd05ac541d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23f12cc75cdf3b6bac0c4acaea44a21a.setIcon(icon_01bb17367707890d69ddffd05ac541d3);
+        
+    
+        var popup_e984baf203b1c0103e0e1c8d8a28d5a7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1574095d42367aa0e2b9507394d46a0d = $(`<div id="html_1574095d42367aa0e2b9507394d46a0d" style="width: 100.0%; height: 100.0%;">Markaziy Shifoxona</div>`)[0];
+            popup_e984baf203b1c0103e0e1c8d8a28d5a7.setContent(html_1574095d42367aa0e2b9507394d46a0d);
+        
+
+        marker_23f12cc75cdf3b6bac0c4acaea44a21a.bindPopup(popup_e984baf203b1c0103e0e1c8d8a28d5a7)
+        ;
+
+        
+    
+    
+            marker_23f12cc75cdf3b6bac0c4acaea44a21a.bindTooltip(
+                `<div>
+                     Markaziy Shifoxona
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c476f34e4e72c80804732d1fd1dc7e60 = L.marker(
+                [41.3222, 69.2494],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_7c76a28f5b046d55662ecca2d5b18d73 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c476f34e4e72c80804732d1fd1dc7e60.setIcon(icon_7c76a28f5b046d55662ecca2d5b18d73);
+        
+    
+        var popup_7158f31b7f7e0b251b58196a76a47924 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3919e41e29c3349c04aa231919e5143b = $(`<div id="html_3919e41e29c3349c04aa231919e5143b" style="width: 100.0%; height: 100.0%;">Shayxontohur Tuman Poliklinikasi</div>`)[0];
+            popup_7158f31b7f7e0b251b58196a76a47924.setContent(html_3919e41e29c3349c04aa231919e5143b);
+        
+
+        marker_c476f34e4e72c80804732d1fd1dc7e60.bindPopup(popup_7158f31b7f7e0b251b58196a76a47924)
+        ;
+
+        
+    
+    
+            marker_c476f34e4e72c80804732d1fd1dc7e60.bindTooltip(
+                `<div>
+                     Shayxontohur Tuman Poliklinikasi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_128e4e64b22fdd1472e5742654b593a3 = L.marker(
+                [41.3563, 69.3001],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_1e87fd3b12483ec521faecce3267b424 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_128e4e64b22fdd1472e5742654b593a3.setIcon(icon_1e87fd3b12483ec521faecce3267b424);
+        
+    
+        var popup_bc96c71606db6048dcd5a31cd23f3524 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0e45eee5dccd9e3087cbc41e80fda78 = $(`<div id="html_b0e45eee5dccd9e3087cbc41e80fda78" style="width: 100.0%; height: 100.0%;">Yunusobod Tuman Poliklinikasi</div>`)[0];
+            popup_bc96c71606db6048dcd5a31cd23f3524.setContent(html_b0e45eee5dccd9e3087cbc41e80fda78);
+        
+
+        marker_128e4e64b22fdd1472e5742654b593a3.bindPopup(popup_bc96c71606db6048dcd5a31cd23f3524)
+        ;
+
+        
+    
+    
+            marker_128e4e64b22fdd1472e5742654b593a3.bindTooltip(
+                `<div>
+                     Yunusobod Tuman Poliklinikasi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49a47ac213cd6c19f4d88f9f80f4ea18 = L.marker(
+                [41.312, 69.2805],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_70ef3c8e0d440caeb438fba4412f02ab = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_49a47ac213cd6c19f4d88f9f80f4ea18.setIcon(icon_70ef3c8e0d440caeb438fba4412f02ab);
+        
+    
+        var popup_32ed6fce9e0a8cfd748bd6a0a0cbd9df = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3aeda82d15fdeb17a7dd6423ee31e7c1 = $(`<div id="html_3aeda82d15fdeb17a7dd6423ee31e7c1" style="width: 100.0%; height: 100.0%;">Toshkent Davlat Universiteti</div>`)[0];
+            popup_32ed6fce9e0a8cfd748bd6a0a0cbd9df.setContent(html_3aeda82d15fdeb17a7dd6423ee31e7c1);
+        
+
+        marker_49a47ac213cd6c19f4d88f9f80f4ea18.bindPopup(popup_32ed6fce9e0a8cfd748bd6a0a0cbd9df)
+        ;
+
+        
+    
+    
+            marker_49a47ac213cd6c19f4d88f9f80f4ea18.bindTooltip(
+                `<div>
+                     Toshkent Davlat Universiteti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ef3d25a1ea8c0fff201b5c54dcd25954 = L.marker(
+                [41.366, 69.287],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_d665f1f0f89774fabc943fbbd04e83f2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ef3d25a1ea8c0fff201b5c54dcd25954.setIcon(icon_d665f1f0f89774fabc943fbbd04e83f2);
+        
+    
+        var popup_dd40088544bea60a2429aef5f593c65f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_faa2d8b3b071f19d1176383980526b1a = $(`<div id="html_faa2d8b3b071f19d1176383980526b1a" style="width: 100.0%; height: 100.0%;">Yunusobod Bozori</div>`)[0];
+            popup_dd40088544bea60a2429aef5f593c65f.setContent(html_faa2d8b3b071f19d1176383980526b1a);
+        
+
+        marker_ef3d25a1ea8c0fff201b5c54dcd25954.bindPopup(popup_dd40088544bea60a2429aef5f593c65f)
+        ;
+
+        
+    
+    
+            marker_ef3d25a1ea8c0fff201b5c54dcd25954.bindTooltip(
+                `<div>
+                     Yunusobod Bozori
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_60bdb29cb23b8b4b758807e04ec2d4f2 = L.marker(
+                [41.285, 69.228],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_bd822fb28464ba36c542e3874141496a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_60bdb29cb23b8b4b758807e04ec2d4f2.setIcon(icon_bd822fb28464ba36c542e3874141496a);
+        
+    
+        var popup_0e7b4bd7b4425e32cdcbb65ec678acbf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_efaf2a68c8e4672c1e8bbd92fdc4e481 = $(`<div id="html_efaf2a68c8e4672c1e8bbd92fdc4e481" style="width: 100.0%; height: 100.0%;">Chilonzor Avtovokzal</div>`)[0];
+            popup_0e7b4bd7b4425e32cdcbb65ec678acbf.setContent(html_efaf2a68c8e4672c1e8bbd92fdc4e481);
+        
+
+        marker_60bdb29cb23b8b4b758807e04ec2d4f2.bindPopup(popup_0e7b4bd7b4425e32cdcbb65ec678acbf)
+        ;
+
+        
+    
+    
+            marker_60bdb29cb23b8b4b758807e04ec2d4f2.bindTooltip(
+                `<div>
+                     Chilonzor Avtovokzal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7a3cb30c953243d9f833fc071209957 = L.marker(
+                [41.2944, 69.2861],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_2d175709ee5ba1de13d56b9a55e13428 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_a7a3cb30c953243d9f833fc071209957.setIcon(icon_2d175709ee5ba1de13d56b9a55e13428);
+        
+    
+        var popup_afb27a923061e9559cf47dabe894a565 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce22e29729b96e70ee3edc08b1a93feb = $(`<div id="html_ce22e29729b96e70ee3edc08b1a93feb" style="width: 100.0%; height: 100.0%;">Toshkent Markaziy Vokzal</div>`)[0];
+            popup_afb27a923061e9559cf47dabe894a565.setContent(html_ce22e29729b96e70ee3edc08b1a93feb);
+        
+
+        marker_a7a3cb30c953243d9f833fc071209957.bindPopup(popup_afb27a923061e9559cf47dabe894a565)
+        ;
+
+        
+    
+    
+            marker_a7a3cb30c953243d9f833fc071209957.bindTooltip(
+                `<div>
+                     Toshkent Markaziy Vokzal
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4e96ffddf8f76eac1359d389df36faa0 = L.marker(
+                [41.2625, 69.2812],
+                {}
+            ).addTo(map_fd5482ce0582434dca119ff749cace1a);
+        
+    
+            var icon_7279d1f9f4df245a3298fed4c72315f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4e96ffddf8f76eac1359d389df36faa0.setIcon(icon_7279d1f9f4df245a3298fed4c72315f5);
+        
+    
+        var popup_7bc5f57defb00db6e04bc3dcec35de3f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ebc895cd16f4d35bb2c37270ac3841f3 = $(`<div id="html_ebc895cd16f4d35bb2c37270ac3841f3" style="width: 100.0%; height: 100.0%;">Toshkent Aeroporti</div>`)[0];
+            popup_7bc5f57defb00db6e04bc3dcec35de3f.setContent(html_ebc895cd16f4d35bb2c37270ac3841f3);
+        
+
+        marker_4e96ffddf8f76eac1359d389df36faa0.bindPopup(popup_7bc5f57defb00db6e04bc3dcec35de3f)
+        ;
+
+        
+    
+    
+            marker_4e96ffddf8f76eac1359d389df36faa0.bindTooltip(
+                `<div>
+                     Toshkent Aeroporti
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
